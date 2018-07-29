@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: 'connectedness',
     loadChildren: './app-sections/connectedness/connectedness.module#ConnectednessModule',
+  },
+  {
+    path: 'teas-herbs',
+    loadChildren: './app-sections/teas-herbs/teas-herbs.module#TeasHerbsModule',
   }
 ];
 

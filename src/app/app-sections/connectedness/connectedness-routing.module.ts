@@ -3,8 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { ConnectednessComponent } from 'src/app/app-sections/connectedness/connectedness.component';
 
 const routes: Routes = [
-  {path: '',
-  component: ConnectednessComponent}
+  {
+    path: '',
+    component: ConnectednessComponent
+  }
 ];
 
 @NgModule({
