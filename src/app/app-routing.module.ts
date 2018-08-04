@@ -9,6 +9,13 @@ const routes: Routes = [
   {
     path: 'teas-herbs',
     loadChildren: './app-sections/teas-herbs/teas-herbs.module#TeasHerbsModule',
+  },
+  {
+    path: 'whats-up-with',
+    loadChildren: './app-sections/whats-up-with/whats-up-with.module#WhatsUpWithModule',
+  },
+  {
+    path: '', redirectTo: '/whats-up-with', pathMatch: 'full'
   }
 ];
 
